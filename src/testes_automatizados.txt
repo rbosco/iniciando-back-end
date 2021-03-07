@@ -1,0 +1,30 @@
+#Testes automatizados
+
+Serve para que a nossa aplicação continue funcionando independente
+do número de novas funcionalidades e do número de devs no time.
+
+1. Testes Unitários
+
+Testam funcionalidades específicas da nossa aplicação(precisam ser funções puras).
+NUNCA: Chamada à uma API e efeito colateral.
+
+2. Testes de integração
+
+Testam uma funcionalidade completa, passando por várias camadas da aplicação
+
+Route -> Controller -> Serviço -> Repositório -> ...
+
+3. Testes E2E
+
+Testes que simulam a ação do usuário dentro da nossa aplicação.
+Exemplo.:
+1. Clique no input de e-mail
+2. Preencha com o seu e-mail cadastrado
+3. Clique no input de senha
+4. Preencha com a senha cadastrada
+5. Clique no botão "Logar"
+6. Espero que a página tenha enviado o usuário para o dashboard
+
+#TDD (Test Driven Development)
+
+Te ajuda a ter prevesibilidade no desenvolvimento de uma funcionalidade.
